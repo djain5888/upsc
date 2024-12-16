@@ -16,5 +16,8 @@
     "url": "https://github.com/djain5888/upsc/issues"
   },
   "homepage": "https://github.com/djain5888/upsc#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
