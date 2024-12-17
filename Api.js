@@ -2,12 +2,16 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
+const cors = require('cors');
+
 
 // Initialize the app
 const app = express();
 const PORT = 4000;
 
 // Middleware
+app.use(cors());
+
 app.use(bodyParser.json());
 
 // Connect to MongoDB
